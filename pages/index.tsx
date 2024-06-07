@@ -10,11 +10,13 @@ export default function Home() {
       <Head>
         <title>WeatherUp</title>
       </Head>
-      <main>
-        <h1 className="uppercase">Weather Up</h1>
+      <main className="mt-5 mx-5">
+        <h1 className="uppercase text-xl font-medium mb-4">Weather Up</h1>
         <form action="">
-          <h2>Search for Weather Update</h2>
-          <SearchBox/>
+          <h2 className="mb-4 text-lg">Search for Weather Update</h2>
+          <div className="mb-4">
+            <SearchBox/>
+          </div>
         </form>
       </main>
     </>
