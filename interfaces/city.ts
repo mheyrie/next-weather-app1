@@ -1,0 +1,3 @@
+interface CityData {
+    id: number;
+}
