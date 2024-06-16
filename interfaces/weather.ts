@@ -19,7 +19,7 @@ interface WeatherData {
         humidity: number;
     };
     visibility: number;
-    wid: {
+    wind: {
         speed:number;
         deg: number;
     };
@@ -40,4 +40,4 @@ interface WeatherData {
     cod: number;
 }
 
-export default WeatherData
+export default WeatherData;
