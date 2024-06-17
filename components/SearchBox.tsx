@@ -35,7 +35,7 @@ export default function SearchBox() {
   return (
     <>
       <input
-        className="bg-gray-200 p-2 rounded-lg w-64 text-black"
+        className="inputArea bg-gray-200 p-2 rounded-lg w-64 text-black"
         type="text"
         placeholder="Enter City Name"
         value={inputValue}

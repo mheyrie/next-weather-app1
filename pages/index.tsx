@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import SearchBox from "@/components/SearchBox";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,6 +12,7 @@ export default function Home() {
         <title>WeatherUp</title>
       </Head>
       <main className="mt-5 mx-5">
+        <ThemeToggle/>
         <h1 className="uppercase text-xl font-medium mb-4">Weather Up</h1>
         <form action="">
           <h2 className="mb-4 text-lg">Search for Weather Update</h2>
@@ -20,5 +22,5 @@ export default function Home() {
         </form>
       </main>
     </>
-  );
-}
+  )
+};
